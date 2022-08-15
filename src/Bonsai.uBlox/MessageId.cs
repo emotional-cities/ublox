@@ -381,6 +381,11 @@
         MON_VER = MessageClass.MON << 8 | 0x04,
 
         /// <summary>
+        /// Attitude solution (Periodic/polled)
+        /// </summary>
+        NAV_ATT = MessageClass.NAV << 8 | 0x05,
+
+        /// <summary>
         /// Clock solution (Periodic/polled)
         /// </summary>
         NAV_CLOCK = MessageClass.NAV << 8 | 0x22,
@@ -396,6 +401,11 @@
         NAV_DOP = MessageClass.NAV << 8 | 0x04,
 
         /// <summary>
+        /// Position error ellipse parameters (Periodic/polled)
+        /// </summary>
+        NAV_EELL = MessageClass.NAV << 8 | 0x3D,
+
+        /// <summary>
         /// End of epoch (Periodic)
         /// </summary>
         NAV_EOE = MessageClass.NAV << 8 | 0x61,
@@ -404,6 +414,16 @@
         /// Geofencing status (Periodic/polled)
         /// </summary>
         NAV_GEOFENCE = MessageClass.NAV << 8 | 0x39,
+
+        /// <summary>
+        /// High precision position solution in ECEF (Periodic/polled)
+        /// </summary>
+        NAV_HPPOSECEF = MessageClass.NAV << 8 | 0x13,
+
+        /// <summary>
+        /// High precision geodetic position solution (Periodic/polled)
+        /// </summary>
+        NAV_HPPOSLLH = MessageClass.NAV << 8 | 0x14,
 
         /// <summary>
         /// Odometer solution (Periodic/polled)
@@ -426,9 +446,19 @@
         NAV_POSLLH = MessageClass.NAV << 8 | 0x02,
 
         /// <summary>
+        /// Navigation position velocity attitude time solution (Periodic/polled)
+        /// </summary>
+        NAV_PVAT = MessageClass.NAV << 8 | 0x17,
+
+        /// <summary>
         /// Navigation position velocity time solution (Periodic/polled)
         /// </summary>
         NAV_PVT = MessageClass.NAV << 8 | 0x07,
+
+        /// <summary>
+        /// Relative positioning information in NED frame (Periodic/polled)
+        /// </summary>
+        NAV_RELPOSNED = MessageClass.NAV << 8 | 0x3C,
 
         /// <summary>
         /// Reset odometer (Command)
@@ -441,9 +471,19 @@
         NAV_SAT = MessageClass.NAV << 8 | 0x35,
 
         /// <summary>
+        /// SBAS status data (Periodic/polled)
+        /// </summary>
+        NAV_SBAS = MessageClass.NAV << 8 | 0x32,
+
+        /// <summary>
         /// Signal information (Periodic/polled)
         /// </summary>
         NAV_SIG = MessageClass.NAV << 8 | 0x43,
+
+        /// <summary>
+        /// QZSS L1S SLAS status data (Periodic/polled)
+        /// </summary>
+        NAV_SLAS = MessageClass.NAV << 8 | 0x42,
 
         /// <summary>
         /// Receiver navigation status (Periodic/polled)
