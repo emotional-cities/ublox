@@ -536,6 +536,11 @@
         NAV_VELNED = MessageClass.NAV << 8 | 0x12,
 
         /// <summary>
+        /// Differential correction input status (Output)
+        /// </summary>
+        RXM_COR = MessageClass.RXM << 8 | 0x34,
+
+        /// <summary>
         /// Satellite measurements for RRLP (Periodic/polled)
         /// </summary>
         RXM_MEASX = MessageClass.RXM << 8 | 0x14,
@@ -544,6 +549,11 @@
         /// Power management request (Command)
         /// </summary>
         RXM_PMREQ = MessageClass.RXM << 8 | 0x41,
+
+        /// <summary>
+        /// Multi-GNSS raw measurements (Periodic/polled)
+        /// </summary>
+        RXM_RAWX = MessageClass.RXM << 8 | 0x15,
 
         /// <summary>
         /// Galileo SAR short-RLM or long-RLM report (Output)
@@ -556,9 +566,19 @@
         RXM_RTCM = MessageClass.RXM << 8 | 0x32,
 
         /// <summary>
+        /// SPARTN input status (Output)
+        /// </summary>
+        RXM_SPARTN = MessageClass.RXM << 8 | 0x33,
+
+        /// <summary>
         /// Broadcast navigation data subframe (Output)
         /// </summary>
         RXM_SFRBX = MessageClass.RXM << 8 | 0x13,
+
+        /// <summary>
+        /// Signal security information (Periodic/polled)
+        /// </summary>
+        SEC_SIG = MessageClass.SEC << 8 | 0x09,
 
         /// <summary>
         /// Unique chip ID (Output)
