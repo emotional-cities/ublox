@@ -18,13 +18,13 @@
     <PackageTags>Bonsai Rx uBlox UBX GPS</PackageTags>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <TargetFramework>net472</TargetFramework>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
     <Features>strict</Features>
-    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Bonsai.Core" Version="2.6.0" />
-    <PackageReference Include="Microsoft.Spatial" Version="7.12.0" />
   </ItemGroup>
 	
   <ItemGroup>
