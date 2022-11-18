@@ -98,7 +98,7 @@ namespace Bonsai.uBlox
                             messageId = 0;
                             pendingMessage = false;
                         }
-                        bytesToRead--;
+                        bytesToRead -= 2;
                     }
                     // Read packet message ID
                     else if (pendingMessage)
@@ -107,6 +107,7 @@ namespace Bonsai.uBlox
                         {
                             classId = bufferedStream.ReadByte();
                             messageId = bufferedStream.ReadByte();
+                            bytesToRead -= 2;
                         }
                         else pendingMessage = false;
                         bytesToRead--;
