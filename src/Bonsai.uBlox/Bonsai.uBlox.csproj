@@ -18,7 +18,7 @@
     <PackageTags>Bonsai Rx uBlox UBX GPS</PackageTags>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <TargetFramework>net472</TargetFramework>
-    <VersionPrefix>0.1.0</VersionPrefix>
+    <VersionPrefix>0.2.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
     <Features>strict</Features>
   </PropertyGroup>
