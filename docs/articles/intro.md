@@ -1,4 +1,5 @@
 Getting Started
 ===============
 
-The easiest way to start using Bonsai.uBlox in your projects is to install the NuGet package from the Bonsai package manager.
+1. Download [Bonsai](https://bonsai-rx.org/).
+2. From the package manager, search and install the **Bonsai - uBlox** package.
