@@ -32,15 +32,8 @@ namespace Bonsai.uBlox
                     {
                         using (var stream = new FileStream(FileName, FileMode.Open))
                         {
-                            var ubxObserver = Observer.Create<UbxPacket>(
-                                value =>
-                                {
-                                    observer.OnNext(value);
-                                },
-                                observer.OnError,
-                                observer.OnCompleted);
-                            var transport = new StreamTransport(ubxObserver);
                             long bytesToRead;
+                            var transport = new StreamTransport(observer);
                             while (!cancellationToken.IsCancellationRequested &&
                                    (bytesToRead = Math.Min(ReadBufferSize, stream.Length - stream.Position)) > 0)
                             {
