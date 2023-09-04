@@ -9,6 +9,7 @@
     <PackageProjectUrl>https://emotional-cities.github.io/ublox</PackageProjectUrl>
     <RepositoryUrl>https://github.com/emotional-cities/ublox.git</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageIcon>icon.png</PackageIcon>
     <IncludeSymbols Condition="'$(Configuration)'=='Release'">true</IncludeSymbols>
@@ -30,6 +31,7 @@
   <ItemGroup>
     <Content Include="..\..\LICENSE" PackagePath="/" />
     <Content Include="..\..\icon.png" PackagePath="/" />
+    <Content Include="..\..\README.md" PackagePath="/" />
   </ItemGroup>
 
 </Project>
