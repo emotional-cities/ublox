@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Bonsai.uBlox
+namespace EmotionalCities.uBlox
 {
     /// <summary>
     /// Represents errors that are reported by UBX devices at runtime.

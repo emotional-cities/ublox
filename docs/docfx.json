@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [
-            "Bonsai.uBlox/*.csproj"
+            "EmotionalCities.uBlox/*.csproj"
           ],
           "src": "../src"
         }

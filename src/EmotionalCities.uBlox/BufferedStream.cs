@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Bonsai.uBlox
+namespace EmotionalCities.uBlox
 {
     class BufferedStream
     {

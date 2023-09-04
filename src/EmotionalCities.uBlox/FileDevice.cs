@@ -1,13 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
 using System.IO;
-using System.Reactive;
 using System.Reactive.Linq;
-using System.Threading;
 using System.Threading.Tasks;
-using Bonsai.uBlox;
+using Bonsai;
 
-namespace Bonsai.uBlox
+namespace EmotionalCities.uBlox
 {
     /// <summary>
     /// Represents an operator which produces an observable sequence of UBX messages from a previously recorded data file.
