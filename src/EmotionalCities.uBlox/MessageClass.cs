@@ -1,4 +1,4 @@
-﻿namespace Bonsai.uBlox
+﻿namespace EmotionalCities.uBlox
 {
     /// <summary>
     /// Specifies the class ID of a UBX message.

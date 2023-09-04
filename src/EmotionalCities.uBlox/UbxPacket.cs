@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bonsai.uBlox
+namespace EmotionalCities.uBlox
 {
     /// <summary>
     /// Represents a single message in the UBX protocol.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bonsai.uBlox
+namespace EmotionalCities.uBlox
 {
     [Flags]
     internal enum UartMode : uint

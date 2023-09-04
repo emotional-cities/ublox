@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bonsai.uBlox
+namespace EmotionalCities.uBlox
 {
     /// <summary>
     /// Specifies which input protocols are active in a specified UART port.

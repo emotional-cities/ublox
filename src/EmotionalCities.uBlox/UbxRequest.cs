@@ -1,4 +1,4 @@
-﻿namespace Bonsai.uBlox
+﻿namespace EmotionalCities.uBlox
 {
     internal static class UbxRequest
     {

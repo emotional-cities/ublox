@@ -1,4 +1,4 @@
-﻿namespace Bonsai.uBlox
+﻿namespace EmotionalCities.uBlox
 {
     /// <summary>
     /// Specifies the UART port identifier number.

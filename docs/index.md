@@ -1,4 +1,4 @@
-# **Bonsai - uBlox** Documentation
+# **Emotional Cities - uBlox** Documentation
 
 Bonsai library for data acquisition and control of u-blox GPS modules using the UBX protocol.
 

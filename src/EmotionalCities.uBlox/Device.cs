@@ -2,8 +2,9 @@
 using System.ComponentModel;
 using System.IO.Ports;
 using System.Reactive.Linq;
+using Bonsai;
 
-namespace Bonsai.uBlox
+namespace EmotionalCities.uBlox
 {
     /// <summary>
     /// Represents an operator that creates a connection to the UBX device at the specified serial port.

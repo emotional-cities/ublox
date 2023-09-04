@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO.Ports;
 
-namespace Bonsai.uBlox
+namespace EmotionalCities.uBlox
 {
     class SerialTransport : StreamTransport, IDisposable
     {

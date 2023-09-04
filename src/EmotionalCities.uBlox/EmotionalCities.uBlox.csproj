@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Authors>NeuroGEARS</Authors>
-    <Title>Bonsai - uBlox Library</Title>
+    <Title>Emotional Cities - uBlox Library</Title>
     <Description>Bonsai library for data acquisition and control of u-blox GPS modules using the UBX protocol.</Description>
     <Copyright>Copyright © NeuroGEARS Ltd 2022</Copyright>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -18,7 +18,7 @@
     <PackageTags>Bonsai Rx uBlox UBX GPS</PackageTags>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <TargetFramework>net472</TargetFramework>
-    <VersionPrefix>0.2.0</VersionPrefix>
+    <VersionPrefix>0.3.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
     <Features>strict</Features>
   </PropertyGroup>
