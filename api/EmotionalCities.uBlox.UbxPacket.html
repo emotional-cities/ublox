@@ -1,0 +1,608 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UbxPacket
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UbxPacket
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="EmotionalCities.uBlox.UbxPacket">
+  
+  
+  <h1 id="EmotionalCities_uBlox_UbxPacket" data-uid="EmotionalCities.uBlox.UbxPacket" class="text-break">Class UbxPacket
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a single message in the UBX protocol.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UbxPacket</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="EmotionalCities.uBlox.html">EmotionalCities.uBlox</a></h6>
+  <h6><strong>Assembly</strong>: EmotionalCities.uBlox.dll</h6>
+  <h5 id="EmotionalCities_uBlox_UbxPacket_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UbxPacket</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket__ctor_System_Boolean_System_Byte___.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.%23ctor(System.Boolean%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L38">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket__ctor_" data-uid="EmotionalCities.uBlox.UbxPacket.#ctor*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket__ctor_System_Boolean_System_Byte___" data-uid="EmotionalCities.uBlox.UbxPacket.#ctor(System.Boolean,System.Byte[])">UbxPacket(Boolean, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="EmotionalCities.uBlox.UbxPacket.html">UbxPacket</a> class from
+the full binary representation of the UBX message, and optionally updates
+the value of the checksum byte.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UbxPacket(bool updateChecksum, params byte[] messageBytes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">updateChecksum</span></td>
+        <td><p>Indicates whether to compute and update the checksum byte.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">messageBytes</span></td>
+        <td><p>An array of bytes containing the full binary representation of the UBX message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">messageBytes</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket__ctor_System_Byte___.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.%23ctor(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L23">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket__ctor_" data-uid="EmotionalCities.uBlox.UbxPacket.#ctor*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket__ctor_System_Byte___" data-uid="EmotionalCities.uBlox.UbxPacket.#ctor(System.Byte[])">UbxPacket(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="EmotionalCities.uBlox.UbxPacket.html">UbxPacket</a> class from
+the full binary representation of the UBX message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UbxPacket(params byte[] messageBytes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">messageBytes</span></td>
+        <td><p>An array of bytes containing the full binary representation of the UBX message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">messageBytes</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_Checksum.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.Checksum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L81">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_Checksum_" data-uid="EmotionalCities.uBlox.UbxPacket.Checksum*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_Checksum" data-uid="EmotionalCities.uBlox.UbxPacket.Checksum">Checksum</h4>
+  <div class="markdown level1 summary"><p>Gets the checksum bytes used for error detection in the UBX protocol.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort Checksum { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_MessageBytes.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.MessageBytes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L52">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_MessageBytes_" data-uid="EmotionalCities.uBlox.UbxPacket.MessageBytes*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_MessageBytes" data-uid="EmotionalCities.uBlox.UbxPacket.MessageBytes">MessageBytes</h4>
+  <div class="markdown level1 summary"><p>Gets the full binary representation of the UBX message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] MessageBytes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_MessageClass.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.MessageClass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L57">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_MessageClass_" data-uid="EmotionalCities.uBlox.UbxPacket.MessageClass*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_MessageClass" data-uid="EmotionalCities.uBlox.UbxPacket.MessageClass">MessageClass</h4>
+  <div class="markdown level1 summary"><p>Gets a value specifying the class ID of the UBX message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageClass MessageClass { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="EmotionalCities.uBlox.MessageClass.html">MessageClass</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_MessageId.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.MessageId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L65">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_MessageId_" data-uid="EmotionalCities.uBlox.UbxPacket.MessageId*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_MessageId" data-uid="EmotionalCities.uBlox.UbxPacket.MessageId">MessageId</h4>
+  <div class="markdown level1 summary"><p>Gets a value specifying the ID of the UBX message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageId MessageId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="EmotionalCities.uBlox.MessageId.html">MessageId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_PayloadLength.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.PayloadLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L73">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_PayloadLength_" data-uid="EmotionalCities.uBlox.UbxPacket.PayloadLength*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_PayloadLength" data-uid="EmotionalCities.uBlox.UbxPacket.PayloadLength">PayloadLength</h4>
+  <div class="markdown level1 summary"><p>Gets the length of the payload, in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PayloadLength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_FromPayload_EmotionalCities_uBlox_MessageId_System_Byte___.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.FromPayload(EmotionalCities.uBlox.MessageId%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L133">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_FromPayload_" data-uid="EmotionalCities.uBlox.UbxPacket.FromPayload*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_FromPayload_EmotionalCities_uBlox_MessageId_System_Byte___" data-uid="EmotionalCities.uBlox.UbxPacket.FromPayload(EmotionalCities.uBlox.MessageId,System.Byte[])">FromPayload(MessageId, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Returns a <a class="xref" href="EmotionalCities.uBlox.UbxPacket.html">UbxPacket</a> with the specified ID and binary payload.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UbxPacket FromPayload(MessageId messageId, params byte[] payload)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="EmotionalCities.uBlox.MessageId.html">MessageId</a></td>
+        <td><span class="parametername">messageId</span></td>
+        <td><p>The ID of the UBX message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">payload</span></td>
+        <td><p>The array containing the binary message payload data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="EmotionalCities.uBlox.UbxPacket.html">UbxPacket</a></td>
+        <td><p>A <a class="xref" href="EmotionalCities.uBlox.UbxPacket.html">UbxPacket</a> instance with the specified ID and binary payload,
+including all necessary UBX headers and checksum.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_GetPayload.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.GetPayload%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L106">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_GetPayload_" data-uid="EmotionalCities.uBlox.UbxPacket.GetPayload*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_GetPayload" data-uid="EmotionalCities.uBlox.UbxPacket.GetPayload">GetPayload()</h4>
+  <div class="markdown level1 summary"><p>Gets the array segment containing the raw message payload. This method
+returns a view into the original array without copying any data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArraySegment&lt;byte&gt; GetPayload()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
+        <td><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment&lt;T&gt;</a> delimiting the message payload section
+of the message bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_GetPayloadArray__1.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.GetPayloadArray%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L117">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_GetPayloadArray_" data-uid="EmotionalCities.uBlox.UbxPacket.GetPayloadArray*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_GetPayloadArray__1" data-uid="EmotionalCities.uBlox.UbxPacket.GetPayloadArray``1">GetPayloadArray&lt;TArray&gt;()</h4>
+  <div class="markdown level1 summary"><p>Returns the message payload as an array of non-pointer value types. The size of the
+type should be a multiple of the total size of the payload.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TArray[] GetPayloadArray&lt;TArray&gt;()
+    where TArray : struct</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TArray[]</td>
+        <td><p>An array containing a copy of the message payload data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TArray</span></td>
+        <td><p>The type of the non-pointer values in the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket_ToString.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L152">View Source</a>
+  </span>
+  <a id="EmotionalCities_uBlox_UbxPacket_ToString_" data-uid="EmotionalCities.uBlox.UbxPacket.ToString*"></a>
+  <h4 id="EmotionalCities_uBlox_UbxPacket_ToString" data-uid="EmotionalCities.uBlox.UbxPacket.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a> that represents the UBX message ID and payload length.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>A formatted <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a> representing the UBX message ID and payload length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/emotional-cities/ublox/new/851c26312bee921c157c32be0abfcc2b44023c23/apiSpec/new?filename=EmotionalCities_uBlox_UbxPacket.md&amp;value=---%0Auid%3A%20EmotionalCities.uBlox.UbxPacket%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/emotional-cities/ublox/blob/851c26312bee921c157c32be0abfcc2b44023c23/src/EmotionalCities.uBlox/UbxPacket.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
