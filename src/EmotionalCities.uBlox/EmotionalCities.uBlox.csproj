@@ -16,16 +16,20 @@
     <GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageOutputPath>..\bin\$(Configuration)</PackageOutputPath>
-    <PackageTags>Bonsai Rx uBlox UBX GPS</PackageTags>
+    <PackageTags>Bonsai Rx Emotional Cities uBlox UBX GPS</PackageTags>
+    <TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <TargetFramework>net472</TargetFramework>
     <VersionPrefix>0.3.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
     <Features>strict</Features>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bonsai.Core" Version="2.6.0" />
+    <PackageReference Include="Bonsai.Core" Version="2.7.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.IO.Ports" Version="6.0.0" />
   </ItemGroup>
 	
   <ItemGroup>
